@@ -1,0 +1,312 @@
+{
+  "version": "2.0.0",
+  "as_of": "2026-10-30",
+  "selection": "Purposeful sample of 9 public repositories, not an exhaustive quality ranking. Selected core instructions and relevant references were reviewed; fetching a file does not imply every line of every large reference was analyzed.",
+  "distribution": "Independent rewritten synthesis; no upstream source code, complete skill copies, book pages or artwork bundled.",
+  "repositories": [
+    {
+      "repository": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "commit": "8f6969f8922caabde9de1784959eae11ddf68073",
+      "commit_date": "2026-10-28T14:52:01Z",
+      "review_date": "2026-10-30",
+      "license_observed": "MIT",
+      "adopted": "Предметный материал, узнаваемый приём, критика реального рендера.",
+      "not_adopted": "Не переносим полный стилевой режим, запрет иллюстраций, обязательные количества секций и общий набор типографических запретов.",
+      "fetched_text_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "06088a8b94598626f27612dea42300154bf7be967c85d9d3eee4490cb056af7d"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d21933f906e8b9a2db0d32982b1523a679a89e97dc77a635e124c9a98ac3d8c5"
+        },
+        {
+          "path": "skills/hallmark/SKILL.md",
+          "sha256": "25a1ff92d925b2389e8409f42fb8ad7e033fceca8b5d1f07ed4ca4c28da53dc3"
+        },
+        {
+          "path": "skills/hallmark/references/direction.md",
+          "sha256": "19e00099e95be52df2ae893881e29a23cd7a5ee5dc8434a87588376818851642"
+        },
+        {
+          "path": "skills/hallmark/references/gates.md",
+          "sha256": "63ad234a1acab5e081dfe8ecf2331518a43cbf42760dc5c6ababfb24d7b3e50c"
+        },
+        {
+          "path": "skills/hallmark/references/imagery.md",
+          "sha256": "b5a4abaa3fd949ac2e2890c9aa37b2953587ed419fdd1b4ff343a4fc04838e7e"
+        }
+      ]
+    },
+    {
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "commit_date": "2026-10-28T19:20:38Z",
+      "review_date": "2026-10-30",
+      "license_observed": "Individual selected skill LICENSE.txt: Apache-2.0; repository contains mixed terms",
+      "adopted": "Связь оформления с предметом, осмысленная типографика, авторская алгоритмическая графика.",
+      "not_adopted": "Не переносим фирменный шаблон Anthropic из algorithmic-art, обязательный p5.js и художественные ритуалы; не превращаем антишаблонный список в новую эстетику.",
+      "fetched_text_files": [
+        {
+          "path": "README.md",
+          "sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694"
+        },
+        {
+          "path": "skills/algorithmic-art/LICENSE.txt",
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "skills/algorithmic-art/SKILL.md",
+          "sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
+        },
+        {
+          "path": "skills/canvas-design/LICENSE.txt",
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+        },
+        {
+          "path": "skills/canvas-design/SKILL.md",
+          "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+        },
+        {
+          "path": "skills/frontend-design/LICENSE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "skills/frontend-design/SKILL.md",
+          "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+        }
+      ]
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "commit": "5e745ace7e151feb2a93d360d0281fe39448b857",
+      "commit_date": "2026-10-28T23:28:51Z",
+      "review_date": "2026-10-30",
+      "license_observed": "Apache-2.0",
+      "adopted": "Различение задач убеждения, работы, чтения и впечатления; отдельная художественная критика и хореография.",
+      "not_adopted": "Не переносим целый инструментальный workflow, скачивание бинарных средств, обязательные панели оценщиков или недоказанные машинные оценки качества.",
+      "fetched_text_files": [
+        {
+          "path": ".agents/skills/impeccable/SKILL.md",
+          "sha256": "fab04b31f946573b00a8559db1fc070f8ea5825254d491c2b13156e5661a86d7"
+        },
+        {
+          "path": ".agents/skills/impeccable/reference/animate.md",
+          "sha256": "d658c48ffbe0031e8e3b318996cad6ceafe29e40aa50d5bb25e4bf1d6839dc7c"
+        },
+        {
+          "path": ".agents/skills/impeccable/reference/craft.md",
+          "sha256": "9205e222bc6565b37fb504ceec93233c2d2a456802b69d16e6b1c44723907c4c"
+        },
+        {
+          "path": ".agents/skills/impeccable/reference/critique.md",
+          "sha256": "c210c9506877c6c8d88880a337fddd95d4315daf70ed6bc631ee6520481f1a0c"
+        },
+        {
+          "path": ".agents/skills/impeccable/reference/new-work.md",
+          "sha256": "e23f8944f8962a36dc01e1b0bfacc55bb754633b3686e83ae53a40af97444118"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812"
+        },
+        {
+          "path": "NOTICE.md",
+          "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb"
+        },
+        {
+          "path": "README.md",
+          "sha256": "f42abb6c9f674eb4bde7ee6e6bc6584a186987a87d0589420b5393b03eaf64e8"
+        }
+      ]
+    },
+    {
+      "repository": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "commit": "12af471f627f866411b4bd785b19646d3672784c",
+      "commit_date": "2026-10-24T23:42:19Z",
+      "review_date": "2026-10-30",
+      "license_observed": "MIT",
+      "adopted": "Предметный инвентарь, сравнение направлений, произведённая графика и проверка браузером.",
+      "not_adopted": "Не переносим house style как универсальный запрет на конкретные шрифты, тонкие линии и другие средства. Заявления авторов об исследованиях не считаем независимой валидацией.",
+      "fetched_text_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a3e3735d1bd37553801bc09918804f93b8f0a98448f3cb58001332832bb89357"
+        },
+        {
+          "path": "skills/taste-skill/SKILL.md",
+          "sha256": "3435ed963b15a1b6447746ec8844ab2cd38d8d2e8ead3451937f42df01e408c4"
+        },
+        {
+          "path": "skills/taste-skill/references/app-screens.md",
+          "sha256": "55e937ec30de605b53a11310b446f328a3ce7403de24fff008920a00be1a5ed4"
+        },
+        {
+          "path": "skills/taste-skill/references/motion.md",
+          "sha256": "79f94d8469898d2bf6186c198ad86ddf691a67c6536eaec36a4ec101285d9a37"
+        },
+        {
+          "path": "skills/taste-skill/references/tells.md",
+          "sha256": "8e6de4411c43d3108f832b3f33bb1a2a838148a72b92a176df893b67d99a0da9"
+        }
+      ]
+    },
+    {
+      "repository": "vercel-labs/agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "commit_date": "2026-10-27T21:40:02Z",
+      "review_date": "2026-10-30",
+      "license_observed": "Repository-wide license unconfirmed in inspected files; composition-patterns frontmatter declares MIT",
+      "adopted": "Технические замечания с конкретным местом и последствием; архитектура компонентов рассматривается отдельно от внешнего вида.",
+      "not_adopted": "Не переносим требования конкретной версии React в любой стек. У web-design-guidelines не установлена общая лицензия по проверенным файлам; его текст не перепечатывается. У composition-patterns в frontmatter заявлена MIT.",
+      "fetched_text_files": [
+        {
+          "path": "README.md",
+          "sha256": "9429e781e3fb2f005e619b96fe18cdc59f8db38b619a4c98f0c46c86357e56a0"
+        },
+        {
+          "path": "skills/composition-patterns/SKILL.md",
+          "sha256": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
+        },
+        {
+          "path": "skills/web-design-guidelines/SKILL.md",
+          "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+        }
+      ]
+    },
+    {
+      "repository": "greensock/gsap-skills",
+      "url": "https://github.com/greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
+      "commit_date": "2026-04-21T23:47:02Z",
+      "review_date": "2026-10-30",
+      "license_observed": "MIT",
+      "adopted": "Scoped lifecycle, локальная очистка, проверка версии и реальной стоимости анимации.",
+      "not_adopted": "Не делаем GSAP обязательным. MIT этих учебных файлов не определяет лицензию самой библиотеки. Transform и opacity не являются гарантией fps.",
+      "fetched_text_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90"
+        },
+        {
+          "path": "README.md",
+          "sha256": "2cd27948cd1486056271d8d962918eec074e9956b594111b5f84304ec1c13914"
+        },
+        {
+          "path": "skills/gsap-core/SKILL.md",
+          "sha256": "3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3"
+        },
+        {
+          "path": "skills/gsap-performance/SKILL.md",
+          "sha256": "cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e"
+        },
+        {
+          "path": "skills/gsap-react/SKILL.md",
+          "sha256": "88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74"
+        }
+      ]
+    },
+    {
+      "repository": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "commit_date": "2026-08-17T20:20:22Z",
+      "review_date": "2026-10-30",
+      "license_observed": "Apache-2.0",
+      "adopted": "Запись принятых семантических ролей и дизайн-решений, последовательность языка проекта.",
+      "not_adopted": "Не делаем Stitch/MCP обязательными и не переносим автоматическую генерацию макета на каждую правку. Постоянное движение не является условием качества.",
+      "fetched_text_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "b4133a55232c0996713349891dc55469d46a16ec027c033c9e4108b2149abb42"
+        },
+        {
+          "path": "README.md",
+          "sha256": "350b366bf9880cacf9a37447c89248a158d0d96ea6054beac15842877c164a12"
+        },
+        {
+          "path": "plugins/stitch-utilities/skills/design-md/SKILL.md",
+          "sha256": "eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b"
+        },
+        {
+          "path": "plugins/stitch-utilities/skills/enhance-prompt/SKILL.md",
+          "sha256": "ccb200c798072438b642b1fa6a5c515563159e2fab3d56e813d76d8afa9a7ce6"
+        },
+        {
+          "path": "plugins/stitch-utilities/skills/taste-design/SKILL.md",
+          "sha256": "e425fdb7ab250764f6229c48941f97e20bd6a7ba9e25a628f1e0ebeb008e8bff"
+        }
+      ]
+    },
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "commit_date": "2026-10-26T10:07:27Z",
+      "review_date": "2026-10-30",
+      "license_observed": "MIT",
+      "adopted": "Практические критерии состояний, токенов и доступности; подбор вариантов как вспомогательный инструмент.",
+      "not_adopted": "База рекомендаций по категории не доказывает пригодность направления. Разделяем web и native: pt/dp и платформенные нормы не являются универсальным порогом CSS px.",
+      "fetched_text_files": [
+        {
+          "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+          "sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+        },
+        {
+          "path": ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+          "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+        },
+        {
+          "path": "README.md",
+          "sha256": "44f4cd60bdadc4aa271cde9154a1e65fde174e7e92141414b9cc75996fbbd298"
+        }
+      ]
+    },
+    {
+      "repository": "ibelick/ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "commit": "59193a75432e5f41c6980f53b9e6a7bd56919947",
+      "commit_date": "2026-10-25T12:16:09Z",
+      "review_date": "2026-10-30",
+      "license_observed": "MIT",
+      "adopted": "Нативные/доступные элементы, локальная обратная связь, контроль движения и фактических дефектов.",
+      "not_adopted": "Не требуем Tailwind или motion/react в любом проекте и не превращаем baseline-ограничения в универсальную арт-дирекцию.",
+      "fetched_text_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "c615621c4cc1676ccde194e7a01b6469ba477780251bd71e007fc473a49c2c2b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "4dc3e9f0216a750d980f55db8412f5c8d656066bc9aadd26deeb8fd4798f991d"
+        },
+        {
+          "path": "skills/baseline-ui/SKILL.md",
+          "sha256": "fea3322f36d58fdafafce2aef56e4556dd2ac7b20876b7dff7d8be7f25fa597f"
+        },
+        {
+          "path": "skills/fixing-motion-performance/SKILL.md",
+          "sha256": "0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9"
+        },
+        {
+          "path": "skills/improve-ui/SKILL.md",
+          "sha256": "fa2ac808f6d9dab7bb3620880b014d2c18e227e5b006102856038096e573e69a"
+        }
+      ]
+    }
+  ]
+}

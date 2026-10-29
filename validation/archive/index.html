@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#e9eddb">
+  <title>Место звука — архив полевых записей</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#catalog">К записям</a>
+  <header class="masthead">
+    <a class="brand" href="./index.html" aria-label="Место звука — начало">
+      <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M3 21h7m22 0h7M21 3v7m0 22v7"/><circle cx="21" cy="21" r="11"/><circle cx="21" cy="21" r="4"/></svg>
+      <span>Место<br>звука</span>
+    </a>
+    <p class="masthead-note">Независимый архив<br>экспедиционных записей</p>
+    <a href="#catalog" class="index-link">Каталог <span>↙</span></a>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="eyebrow">Полевой каталог / 01—06</p>
+        <h1 id="page-title">У каждого места<br>свой <span>звук.</span></h1>
+        <p class="intro-description">Лес, вода, горы и город.<br>Находите полевые записи по месту<br class="desktop-break"> и среде, в которой они сделаны.</p>
+      </div>
+      <figure class="atlas">
+        <svg viewBox="0 0 600 330" role="img" aria-label="Авторская графика: условный рельеф с линиями пути и точкой наблюдения">
+          <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#254c40" stroke-opacity=".15" stroke-width=".7"/></pattern><clipPath id="map-clip"><rect width="600" height="300"/></clipPath></defs>
+          <g clip-path="url(#map-clip)"><rect width="600" height="300" fill="url(#grid)"/>
+          <g fill="none" stroke="#254c40" stroke-width="1.4">
+            <path d="M-45 210C90 102 4-57 208-16s105 136 266 104 153 102 167 144"/>
+            <path d="M-35 231C94 125 25-35 207 7s113 139 269 103 133 92 159 141"/>
+            <path d="M-23 251C103 145 47-11 207 28s123 145 272 104 113 80 151 139"/>
+            <path d="M-15 274C110 168 68 13 209 50s130 149 272 103 95 73 145 140"/>
+            <path d="M-1 299C116 190 91 37 211 74s138 150 272 100 79 64 141 140"/>
+            <path d="M26 318C129 209 112 62 213 98s143 152 273 98 62 58 135 141"/>
+            <path d="M61 333C144 237 136 88 216 122s150 150 273 94 48 49 127 144"/>
+            <path d="M98 346C165 261 156 113 220 147s151 148 269 93 36 38 124 140"/>
+            <path d="M131 361C189 287 175 139 227 173s150 138 265 91 20 29 119 139"/>
+          </g>
+          <path class="map-river" d="M364-30C288 42 421 61 352 119S257 186 321 225s24 69-19 116" fill="none" stroke="#e9eddb" stroke-width="24"/>
+          <path d="M364-30C288 42 421 61 352 119S257 186 321 225s24 69-19 116" fill="none" stroke="#6f9a91" stroke-width="12"/>
+          <path d="M54 257L154 192 233 208 323 144 420 169 517 66" fill="none" stroke="#d64224" stroke-width="2" stroke-dasharray="4 6"/>
+          <g transform="translate(323 144)" fill="none" stroke="#d64224"><circle r="37"/><circle r="25"/><circle r="13"/><circle r="4" fill="#d64224"/><path d="M-46 0h-9m101 0h9M0-46v-9m0 101v9"/></g>
+          <g fill="#254c40" font-size="11" font-family="monospace"><text x="20" y="26">N ↑</text><text x="449" y="277">ТОЧКА СЛУШАНИЯ</text><text x="35" y="281">М / З</text></g></g>
+          <text x="600" y="324" text-anchor="end" fill="#52685b" font-size="10" font-family="monospace">УСЛОВНЫЙ РЕЛЬЕФ · НЕ ГЕОГРАФИЧЕСКАЯ КАРТА</text>
+        </svg>
+        <figcaption><span class="red-dot"></span> Замечать то, что обычно остаётся за кадром.</figcaption>
+      </figure>
+    </section>
+
+    <section id="catalog" class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading"><h2 id="catalog-title">Записи</h2><p>Демонстрационный каталог · аудиофайлы ещё не добавлены</p></div>
+      <div class="tools">
+        <div class="search-wrap"><label for="search">Название или место</label><div class="search-input"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input id="search" type="search" placeholder="Например, Карелия" autocomplete="off"><button id="clear-search" type="button" aria-label="Очистить поиск" hidden>×</button></div></div>
+        <fieldset class="filters"><legend>Среда</legend><div class="filter-options"><button type="button" class="active" data-filter="all" aria-pressed="true">Все <span>6</span></button><button type="button" data-filter="лес" aria-pressed="false">Лес</button><button type="button" data-filter="вода" aria-pressed="false">Вода</button><button type="button" data-filter="горы" aria-pressed="false">Горы</button><button type="button" data-filter="город" aria-pressed="false">Город</button></div></fieldset>
+      </div>
+      <div class="list-caption"><p id="results-count" role="status" aria-live="polite">6 записей</p><span>Место / среда / длительность</span></div>
+      <div id="record-list" class="record-list"></div>
+      <div id="empty" class="empty" hidden><p class="empty-mark" aria-hidden="true">∅</p><h3>Здесь пока тихо</h3><p>По вашему запросу записей нет.<br>Измените название, место или среду.</p><button type="button" id="reset">Сбросить поиск и фильтр ↗</button></div>
+      <noscript><p>Для поиска, фильтров и просмотра сведений включите JavaScript. В каталоге: Лес после дождя — Карелия — лес — 04:18; Ночной причал — Владивосток — вода — 03:42; Ветер на перевале — Алтай — горы — 06:05; Трамвайное кольцо — Екатеринбург — город — 02:51; Двор в полдень — Тбилиси — город — 05:20; Камыши — Астрахань — вода — 07:10.</p></noscript>
+    </section>
+  </main>
+  <footer><span>Место звука</span><p>Архив начинается с внимания.</p><span>Демо / 6 записей</span></footer>
+  <dialog id="details" aria-labelledby="detail-title"><div class="dialog-top"><p class="eyebrow">Карточка полевой записи</p><button type="button" id="close-details" aria-label="Закрыть сведения">×</button></div><div id="detail-art" class="detail-art" aria-hidden="true"></div><p id="detail-number" class="detail-number"></p><h2 id="detail-title"></h2><dl id="detail-fields"></dl><div class="audio-note"><span aria-hidden="true">○</span><div><strong>Аудиофайл ещё не добавлен</strong><p>Это демонстрационные метаданные.<br>Прослушивание станет доступно вместе с записью.</p></div></div><button type="button" class="return-button" id="return">Вернуться к каталогу ↙</button></dialog>
+</body>
+</html>

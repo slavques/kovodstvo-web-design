@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#df3c25">
+  <meta name="description" content="Демонстрационный сайт фестиваля уличной еды Крошка: программа, три зоны и день у воды в Казани.">
+  <title>Крошка — день у воды и еды</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#program">Перейти к программе</a>
+  <div class="demo-note">Это выдуманный фестиваль. Демонстрационный проект, не реальное объявление.</div>
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="Крошка, начало страницы">крошка<span aria-hidden="true">✳</span></a>
+    <nav aria-label="Главная навигация"><a href="#program">Программа</a><a href="#place">Место</a></nav>
+    <span class="free">ВХОД СВОБОДНЫЙ ↗</span>
+  </header>
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-top"><p>ФЕСТИВАЛЬ<br>УЛИЧНОЙ ЕДЫ</p><p>КАЗАНЬ<br>НАБЕРЕЖНАЯ КАБАНА</p><p>16 АВГУСТА 2027<br>12:00 — 22:00</p></div>
+      <h1 id="hero-title">КРОШКА</h1>
+      <div class="spread">
+        <svg class="food bread" viewBox="0 0 270 220" aria-hidden="true"><path d="M34 168C1 142 12 101 45 89C22 44 68 9 105 37C126 1 175 18 181 52C228 29 258 72 235 109C277 139 249 188 210 181C184 224 138 209 122 184C82 221 43 205 34 168Z" fill="#dfe876" stroke="#243ac0" stroke-width="5"/><path d="m63 87 48 73M116 62l48 73m4-67 39 59" stroke="#243ac0" stroke-width="9" stroke-linecap="round"/></svg>
+        <div class="hero-caption"><span>Большой день.</span><span>Маленькие радости.</span><a href="#program">Что будем делать <span aria-hidden="true">↓</span></a></div>
+        <svg class="food plate" viewBox="0 0 400 330" aria-hidden="true"><ellipse cx="200" cy="165" rx="190" ry="151" fill="#fff1c8"/><ellipse cx="200" cy="165" rx="157" ry="119" fill="none" stroke="#243ac0" stroke-width="3"/><ellipse cx="200" cy="165" rx="145" ry="108" fill="none" stroke="#243ac0" stroke-width="2"/><path d="M93 169c-9-44 37-76 81-54 29-39 103-6 108 44 27 15 19 53-16 58-20 40-74 36-86 4-46 20-77-4-87-52Z" fill="#df3c25"/><path d="m132 150 43 30m14-51 40 31m-24 32 42 24" stroke="#fff1c8" stroke-width="9" stroke-linecap="round"/><path d="M299 92q-25 17-25 43M292 107q33-18 45-3M292 107q-9-31-29-36" stroke="#243ac0" fill="none" stroke-width="9" stroke-linecap="round"/></svg>
+        <svg class="food cup" viewBox="0 0 150 230" aria-hidden="true"><path d="m30 72 16 140q27 17 58-2l18-138Z" fill="#dfe876" stroke="#243ac0" stroke-width="5"/><ellipse cx="76" cy="73" rx="47" ry="17" fill="#fff1c8" stroke="#243ac0" stroke-width="5"/><path d="m75 124 7-89 38-22" fill="none" stroke="#243ac0" stroke-width="8"/><path d="m46 117 25 5-3 27-23-5Zm37 43 25-7-3 28-25 7Z" fill="#fff1c8"/></svg>
+        <span class="crumb c1" aria-hidden="true"></span><span class="crumb c2" aria-hidden="true"></span><span class="crumb c3" aria-hidden="true"></span>
+      </div>
+      <div class="river-edge" aria-hidden="true"><svg viewBox="0 0 1440 110" preserveAspectRatio="none"><path d="M0 25Q180 90 360 37T720 38T1080 42T1440 20V110H0Z" fill="currentColor"/><path d="M0 54Q180 119 360 66T720 67T1080 71T1440 49" fill="none" stroke="#fff1c8" stroke-width="3"/></svg></div>
+    </section>
+
+    <section class="invitation" aria-labelledby="invite-title"><p class="eyebrow">НЕ НА БЕГУ. НА БЕРЕГУ.</p><h2 id="invite-title">Берите аппетит.<br>Остальное — здесь.</h2><p>Гриль, тёплая выпечка, холодные напитки. Один летний день, чтобы попробовать разное и остаться подольше.</p><span class="small-sun" aria-hidden="true">✳</span></section>
+
+    <section class="program section-pad" id="program" aria-labelledby="program-title">
+      <div class="section-heading"><div><p class="eyebrow">16 АВГУСТА · 12:00–22:00</p><h2 id="program-title">На весь день</h2></div><p>Выберите свой вкус.<br>И время для него.</p></div>
+      <div class="zone-controls" hidden>
+        <div class="filters" role="group" aria-label="Показать события по зоне">
+          <button type="button" data-zone="all" aria-pressed="true">Весь день <span>04</span></button>
+          <button type="button" data-zone="fire" aria-pressed="false"><span class="zone-symbol" aria-hidden="true">♨</span> Огонь <span>02</span></button>
+          <button type="button" data-zone="dough" aria-pressed="false"><span class="zone-symbol" aria-hidden="true">◒</span> Тесто <span>01</span></button>
+          <button type="button" data-zone="cold" aria-pressed="false"><span class="zone-symbol" aria-hidden="true">✳</span> Холод <span>01</span></button>
+        </div>
+        <p class="filter-description" id="zone-description">Три зоны, четыре повода задержаться. Все события по времени Казани.</p>
+      </div>
+      <noscript><p>Все события по времени Казани. Для фильтрации зон и скачивания календаря включите JavaScript.</p></noscript>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+      <ol class="events" aria-label="Программа фестиваля">
+        <li class="event" data-event="kitchen" data-zone="fire"><time datetime="2027-08-16T13:00:00+03:00">13:00</time><div class="event-body"><span class="zone-label">ОГОНЬ / ГРИЛЬ</span><h3>Открытая кухня</h3></div><button class="calendar" type="button" data-calendar="kitchen" aria-label="Скачать в календарь: Открытая кухня" hidden><span aria-hidden="true">↗</span><span>В календарь<small>.ics</small></span></button></li>
+        <li class="event" data-event="talk" data-zone="dough"><time datetime="2027-08-16T15:00:00+03:00">15:00</time><div class="event-body"><span class="zone-label">ТЕСТО / ВЫПЕЧКА</span><h3>Разговор о локальных продуктах</h3></div><button class="calendar" type="button" data-calendar="talk" aria-label="Скачать в календарь: Разговор о локальных продуктах" hidden><span aria-hidden="true">↗</span><span>В календарь<small>.ics</small></span></button></li>
+        <li class="event" data-event="dinner" data-zone="fire"><time datetime="2027-08-16T18:00:00+03:00">18:00</time><div class="event-body"><span class="zone-label">ОГОНЬ / ГРИЛЬ</span><h3>Ужин у воды</h3></div><button class="calendar" type="button" data-calendar="dinner" aria-label="Скачать в календарь: Ужин у воды" hidden><span aria-hidden="true">↗</span><span>В календарь<small>.ics</small></span></button></li>
+        <li class="event" data-event="music" data-zone="cold"><time datetime="2027-08-16T20:00:00+03:00">20:00</time><div class="event-body"><span class="zone-label">ХОЛОД / НАПИТКИ И ДЕСЕРТЫ</span><h3>Музыка</h3></div><button class="calendar" type="button" data-calendar="music" aria-label="Скачать в календарь: Музыка" hidden><span aria-hidden="true">↗</span><span>В календарь<small>.ics</small></span></button></li>
+      </ol>
+      <div class="program-foot"><p>Вход свободный. Время местное, Казань (UTC+3).</p><p>Зоны событий — часть демонстрационного сценария.</p></div>
+      <p class="download-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="place" id="place" aria-labelledby="place-title">
+      <div class="place-copy"><p class="eyebrow">МЕСТО ВСТРЕЧИ</p><h2 id="place-title">У воды<br>вкуснее.</h2><p class="address">Казань,<br>набережная Кабана</p><p>В этом демосценарии встречаемся на набережной: с полудня до десяти вечера. Можно заглянуть на одно событие или провести здесь день.</p><p class="place-note">Точная точка входа и схема площадки не заданы. Рисунок справа — иллюстрация, а не маршрут.</p></div>
+      <div class="place-art" aria-hidden="true"><svg viewBox="0 0 600 630"><path d="M-20 630C80 440 350 570 310 340S510 160 640-20" fill="none" stroke="#fff1c8" stroke-width="145"/><path d="M-20 630C80 440 350 570 310 340S510 160 640-20" fill="none" stroke="#df3c25" stroke-width="3" stroke-dasharray="3 11"/><path d="M-70 560C40 369 285 520 240 300S440 100 580-70" fill="none" stroke="#fff1c8" stroke-width="3"/><path d="M-90 500C20 309 225 460 180 240S380 40 520-130" fill="none" stroke="#fff1c8" stroke-width="3"/><circle cx="322" cy="370" r="70" fill="#dfe876"/><path d="m309 343 21 18 19-21m-18 20-15 40m14-40-30 16m30-16 21 25" stroke="#243ac0" stroke-width="8" fill="none" stroke-linecap="round"/><text x="57" y="205" fill="#fff1c8" font-size="40" font-family="Arial, sans-serif" transform="rotate(-28 57 205)">КАБАН</text><path d="m438 478 70 0m-66 17 61 0m-52 17 40 0" stroke="#fff1c8" stroke-width="3"/><circle cx="98" cy="74" r="34" fill="#df3c25"/><path d="m83 72 16-15 14 15-14 17Z" fill="#fff1c8"/></svg><span class="art-note">Еда. Люди. Берег.</span></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top">крошка<span aria-hidden="true">✳</span></a><p>16 августа 2027 · Казань<br>Демонстрационный фестиваль</p><a href="#top">К началу ↑</a></footer>
+</body>
+</html>
