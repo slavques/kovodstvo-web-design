@@ -1,0 +1,6 @@
+interface:
+  display_name: "Дизайн по «Ководству»"
+  short_description: "Композиция, типографика и UX по «Ководству»"
+  default_prompt: "Используй $kovodstvo-web-design для проектирования или проверки сайта с учётом его задачи, содержания и существующей айдентики."
+policy:
+  allow_implicit_invocation: true
